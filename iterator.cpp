@@ -103,3 +103,4 @@ bool PreorderIterator::is_done() {
 Base* PreorderIterator::current() {
     // Return the current for the top iterator in the stack
     return iterators.top()->current();
+}
