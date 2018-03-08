@@ -66,3 +66,5 @@ class PreorderIterator : public Iterator {
         bool is_done();
         Base* current();
 };
+
+#endif
